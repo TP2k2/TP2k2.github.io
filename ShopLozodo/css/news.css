@@ -27,7 +27,7 @@
 
 }
 .icon-item i{
-    font-size: 40px;
+    font-size: 80px;
     color: var(--black-color);
     opacity: 0.7;
 }
@@ -124,8 +124,13 @@ margin-left: 20px;
     line-height: 30px;
     color: var(--white-color);
 }
-@media (min-width:1200px) {
+@media only screen  and (min-width : 1498px) {
     .news-today-info{
         left: 220px;
     }
-}
+ }
+ @media only screen  and (min-width : 1685px) {
+    .news-today-info{
+        left: 240px;
+    }
+    }

@@ -13,7 +13,20 @@
         min-width: 321.9px!important;
         border: 2px solid #ccc;
     }
-
+    .carousel-inner{
+        margin-top: 110px!important;
+    }
+    
+}
+@media (min-width:1024px)
+{
+    .carousel-inner{
+        margin-top: -16px;
+        
+    }
+    .section-body h3{
+        margin-left: 40px;
+    }
 }
 @media (min-width:46.25em) and (max-width:1023px) {
     .thumnail img {
@@ -25,7 +38,7 @@
             margin-left: -12px!important;
     }
     .section-body h3{
-        margin-left: 30px!important;
+        margin-left: 55px!important;
     }
     .caption{
         margin-left: 40px;
