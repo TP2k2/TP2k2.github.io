@@ -1,0 +1,197 @@
+
+@media (min-width:1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .header-main{
+        margin-bottom: 0px!important;
+    }
+    .carousel img{
+        max-height: 550px!important;
+    }
+    .thumnail{
+        margin-left: 44px!important;
+    }
+    .section-menu-second li{
+        min-width: 321.9px!important;
+        border: 2px solid #ccc;
+    }
+
+}
+@media (min-width:46.25em) and (max-width:1023px) {
+    .thumnail img {
+        min-width: 293px!important;
+        height: 340px!important;
+        margin-left: 40px!important;
+    }
+    .thumnail{
+            margin-left: -12px!important;
+    }
+    .section-body h3{
+        margin-left: 30px!important;
+    }
+    .caption{
+        margin-left: 40px;
+    }
+    .inew{
+        right: 2px!important;
+    }
+    .slibar{
+        margin-top: 46px!important;
+    }
+    .section-menu-second .navbar .nav-tabs li {
+        min-width: 372px!important;
+        font-size: 12px;
+        border-right: none!important;
+        border: 1px solid #ddd;
+    }
+    .nav-tabs li:last-child{
+        width: 744px!important;
+    }
+    .list-unstyled{
+        margin-top: 40px!important;
+    }
+    .clear{
+        clear: both;
+    }
+    .footer-map{
+        width: 105%;
+        margin-left: -8px;
+    }
+
+
+
+}
+@media (max-width:46.1875em) {
+    .navbar-toggle{
+        margin-top: 3px!important;
+        margin-right: 2px!important;
+    }
+    .navbar-form{
+        margin: 0!important;
+        padding: 0!important;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .section-services .container{
+        width: 112%!important;
+    }
+    .section-hot-product .container
+    {
+        margin-right:-44px!important ;
+    }
+    .section-menu-second .container{
+        width: 104%!important;
+        margin-left: 15px!important;
+    }
+    .slibar{
+        margin-top: -14px!important;
+    }
+    .main-nav{
+        width: 420px!important;
+    }
+    .section-menu-second .navbar .nav-tabs li{
+        font-size: 10px;
+        border-right: none!important;
+        border:1px solid #ddd;
+        width: 100%!important;
+    }
+    .block-main-slider
+    {
+        padding-right: 0px!important;
+    }
+ 
+    .input-email{
+        width: 100%!important;
+    }
+    .enter-email{
+        width: 101.5%!important;
+    }
+    .news-letter .container{
+        padding-right: 0!important;
+    }
+    .megamenuthumnail img{
+            width: 150px!important;
+            height: 150px!important;
+            padding-bottom: 15px!important;
+    }
+    .text-content{
+        position: absolute;
+        top:-10%;
+        left: 174px;
+
+    }
+    .section-prod .container{
+        margin-left: 15px!important;
+        margin-right: -30px!important;
+    }
+    .section-list-brand .container{
+        margin-left: 15px;
+        margin-right:-32px;
+    }
+    .news-letter{
+        margin-left: 15px;
+        margin-right: -32px;
+    }
+    .news-letter .container{
+        margin-left: 15px;
+        overflow: hidden;
+
+    }
+    .sub-left-right{
+        padding-right: 14px;
+    }
+    .carousel{
+        margin-right: -45px!important;
+        margin-left: 15px!important;
+    }
+    .carousel img{
+        min-height: 500px!important;
+    }
+    .section-body h3{
+        margin-left: 40px!important;
+    }
+    .inew{
+        right: 10px!important;
+    }
+    .form-contact{
+        margin-left: 58px!important;
+    }
+    .clear{
+        clear: both;
+    }
+    .list-unstyled{
+        margin-top: 40px!important;
+    }
+    .footer-map{
+        width: 118%;
+    }
+    .thumnail img {
+        width: 100%!important;
+    }
+    .thumnail{
+        margin-left: 16px!important;
+    }
+    .about-text{
+        width: 100%!important;
+        margin-left: 30px!important;
+    }
+    .news-today-info{
+        position: inherit!important;
+    }
+    .header-news h1 {
+        line-height: 40px!important;
+    }
+    .news-today-img{
+        width: 100%!important;
+    }
+    .icon-list{
+        display: none;
+    }
+    .news-today-list{
+        padding-left:0 ;
+    }
+    .news-hot-list{
+        padding-left: 0;
+    }
+    
+   
+}

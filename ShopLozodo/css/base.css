@@ -1,0 +1,19 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --font-color:	#413839;
+    --font-size:15px;
+    --font-family:"Arial";
+    --pink-color:#ff3366;
+
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none!important;
+}
+.section-prod img{
+display: block!important;
+max-width: 100%!important;
+}
