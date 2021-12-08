@@ -68,7 +68,10 @@
         width: 105%;
         margin-left: -8px;
     }
-
+    .carousel img{
+        min-height: 550px!important;
+        margin-top: 10px;
+    }
 
 
 }

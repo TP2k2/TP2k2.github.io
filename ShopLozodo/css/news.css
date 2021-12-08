@@ -47,6 +47,7 @@
 .news-today-info p{
     text-align: justify;
     color: #000;
+    font-style: italic;
 }
 .news-today-info p:hover{
     color: #f44336;
@@ -76,10 +77,15 @@ color: #f44336;
 .news-hot-info p{
     text-align: justify;
     color: #000;
+    font-style: italic;
 }
 h4{
-    font-weight: 900;
+    font-weight: 1000;
     text-transform: uppercase;
+    font-style: italic;
+    font-family: 'lato-Regular';
+    font-size:22px;
+
 }
 .news-main h4{
     margin-bottom: 0;
