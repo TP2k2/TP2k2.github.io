@@ -85,11 +85,9 @@ h4{
     font-style: italic;
     font-family: 'lato-Regular';
     font-size:22px;
-
 }
 .news-main h4{
     margin-bottom: 0;
-    margin-left: 38px;
 }
 .dt-img{
     width: 100%;
@@ -139,4 +137,9 @@ margin-left: 20px;
     .news-today-info{
         left: 240px;
     }
+}
+@media (max-width:46.1875em){
+    h4{
+        margin-left: 70px;
     }
+}

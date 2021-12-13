@@ -299,6 +299,17 @@ padding-top: 10px;
 }
 .thumnail{
     margin-left:22px;
+    transition-duration: .3s;
+transition-property: transform;
+transition-timing-function: ease-out;
+}
+.thumnail:hover{
+    opacity: 0.7;
+    transform: translateY(-20px);
+}
+.thumnail:hover .inew{
+  
+    display: block;
 }
 .thumnail .caption .proName{
 font-size: 14px;
@@ -329,18 +340,18 @@ color: gray;
     color: deeppink;
 }
 .inew{
-    border-radius: 50%;
-    background:rgb(250, 127, 127);
+    background:rgb(255, 99, 71);
     display: block;
     text-transform: uppercase;
     position: absolute;
-    width: 50px;
+    width: 93%;
     height: 45px;
-    right: 10px;
-    top: 0px;
+    top: 100px;
     padding-top: 10px;
     text-align: center;
-    color: var(--white-color);
+    color: var(--black-color);
+    font-weight: 800;
+    display: none;
 }
 .section-list-brand .container{
     margin-top: 10px;
@@ -410,11 +421,7 @@ color: gray;
     color: var(--pink-color);
 
 }
-.footer-map{
-    margin-top: 20px;
-    background: url(/ShopLozodo/img/anhtruong.jpg) top center/cover no-repeat;
-    padding: 30%;
-}
+
 .btn-primary{
     float: right;
 }
@@ -436,5 +443,65 @@ font-style: italic;
 .text-ct{
 text-align: justify;
 }
+.footer .container-fluid{
+    background: #ddd;
+}
 
+.footer-box-heading{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'lato-Regular';
 
+}
+.footer-box-child{
+   background-color: #fa8072; 
+   width: 90%;
+   min-height: 300px;
+   margin-bottom: 100px;
+}
+
+.event-list h4{
+    border-bottom: 2px solid #ddd;
+    font-weight: 700;
+    font-size: 26px;
+    color: #666;
+}
+.event-list p{
+    opacity: 0.8;
+}
+.event-list span{
+    opacity: 0.8;
+}
+
+.carrer-list li{
+    font-size: 20px;
+    line-height: 3;
+    border-bottom:2px solid #ddd ;
+}
+.carrer-list i{
+    font-size: 24px;
+    color: #666;
+    
+}
+.carrer-list span{
+    margin-left: 4px;
+    opacity: 0.8;
+}
+
+.follow-list li{
+    display: inline-block;
+    font-size: 26px;
+    padding: 15px;
+}
+
+.contact-list li{
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+.contact-list li span{
+    font-size: 18px;
+    margin-left: 4px;
+}
+.icon-user{
+    font-size: 24px;
+}

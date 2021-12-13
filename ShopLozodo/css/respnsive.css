@@ -16,6 +16,23 @@
     .carousel-inner{
         margin-top: 110px!important;
     }
+    .contact-list{
+        margin-bottom: -24px!important;
+    }
+    .footer-box-child{
+        width: 100%!important;
+        border-right: 2px solid #ddd;
+
+    }
+    .news-today-img{
+        width: 100%!important;
+    }
+    .news-today-info{
+        position: initial!important;
+    }
+   .inew{
+       width: 90%!important;
+   }
     
 }
 @media (min-width:1024px)
@@ -44,7 +61,8 @@
         margin-left: 40px;
     }
     .inew{
-        right: 2px!important;
+        left: 40px!important;
+        width: 84%!important;
     }
     .slibar{
         margin-top: 46px!important;
@@ -64,13 +82,21 @@
     .clear{
         clear: both;
     }
-    .footer-map{
-        width: 105%;
-        margin-left: -8px;
-    }
+   
     .carousel img{
         min-height: 550px!important;
         margin-top: 10px;
+    }
+    .footer-map img{
+        width: 100%!important;
+    }
+    .footer-box-child{
+        margin-left: 22px!important;
+    }
+    .icon-list li{
+        display: inline-block;
+        margin-bottom: 10px!important;
+        margin-left: 50px!important;
     }
 
 
@@ -166,7 +192,7 @@
         margin-left: 40px!important;
     }
     .inew{
-        right: 10px!important;
+        width: 100%!important;
     }
     .form-contact{
         margin-left: 58px!important;
@@ -204,9 +230,20 @@
     }
     .news-today-list{
         padding-left:0 ;
+        width: 115%!important;
     }
     .news-hot-list{
         padding-left: 0;
+        width: 115%!important;
+    }
+    .footer-map img{
+        margin-left: 54px;
+    }
+    .footer {
+        width: 113%;
+    }
+    .footer-box-child{
+        width: 103%!important;
     }
     
    
