@@ -130,12 +130,12 @@ margin-left: 20px;
 }
 @media only screen  and (min-width : 1498px) {
     .news-today-info{
-        left: 220px;
+        left: 230px;
     }
  }
  @media only screen  and (min-width : 1685px) {
     .news-today-info{
-        left: 240px;
+        left: 254px;
     }
 }
 @media (max-width:46.1875em){
