@@ -5,6 +5,9 @@ body{
     line-height: 1.7em;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 .header-main{
     margin-bottom: 70px;
 }
@@ -15,14 +18,17 @@ margin: auto;
 background:#ff6666 ;
 margin-bottom: 40px;
 }
+
 .navbar li{
     min-width: 85px;
+    
 }
 .navbar a{
     color: var(--font-color)!important;
     font-size: 16px;
     line-height: 27px!important;
     font-weight: 700;
+
     
 }
 .navbar form{
@@ -458,6 +464,7 @@ text-align: justify;
    width: 90%;
    min-height: 300px;
    margin-bottom: 100px;
+   margin-left:15px;
 }
 
 .event-list h4{
@@ -504,4 +511,62 @@ text-align: justify;
 }
 .icon-user{
     font-size: 24px;
+}
+.login-box{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  padding: 40px 140px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+.login-box h2{
+    color: var(--white-color);
+    font-weight: 600;
+    margin: 0 0 30px;
+    font-size: 30px;
+}
+.login-box label{
+    color: #24b8b7;
+    font-size: 16px;
+}
+
+.login-box input{
+    display: block;
+    padding: 6px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.login-box input:nth-child(2){
+    margin-bottom: 30px;
+}
+.login-box .login{
+    padding: 10px;
+    color: #24b8b7;
+    background-color: var(--white-color);
+    font-weight: 600;
+    display: block;
+    text-align: center;
+}
+.login{
+    font-size: 18px;
+}
+.login:hover{
+    opacity: 0.7;
+}
+.login-box i{
+    font-size: 18px;
+    padding: 0 6px;
+}
+.forgot{
+    text-decoration: underline!important;
+    padding:10px 10px 10px 0px;
+    display: block;
+    color: #24b8b7;
+    font-size: 18px;
+
 }
