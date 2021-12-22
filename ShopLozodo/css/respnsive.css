@@ -33,7 +33,9 @@
    .inew{
        width: 90%!important;
    }
-    
+    .section-detail{
+        margin-top: 90px!important;
+    }
 }
 @media (min-width:1024px)
 {
@@ -101,6 +103,14 @@
     .footer-box-heading{
         margin-left: 10px!important;
     }
+    .header-detail{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .heading-section{
+        margin-top: 60px!important;
+    }
+
 
 
 }
@@ -246,11 +256,19 @@
         width: 113%;
     }
     .footer-box-child{
-        width: 103%!important;
+        width: 96%!important;
     }
     .login-box{
         width: 100%!important;
         padding: 40px 10px!important;
+    }
+    .section-detail{
+        width: 107%!important;
+        padding-left: 22px!important;
+        margin-left: 8px!important;
+    }
+    .section-review{
+        padding-left: 30px!important;
     }
     
    

@@ -5,22 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail Product</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/ShopLozodo/css/bootstrap.css">
+    <link rel="stylesheet" href="/ShopLozodo/css/respnsive.css">
+    <link rel="stylesheet" href="/ShopLozodo/css/base.css">
+    <link rel="stylesheet" href="/ShopLozodo/css/style.css">
+    <link rel="stylesheet" href="/ShopLozodo/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"><div class="pd-wrap">
 	<link rel="stylesheet" href="/ShopLozodo/css/detail.css">
+    <script src="/ShopLozodo/js/jquery-1.12.4.js"></script>
 </head>
 <body>
-		<div class="container">
+	<header class="header-main">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid header-detail">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="index.html" class="navbar-brand">
+                <span class="lz-brand">LZS</span>
+              </a>
+              <form action="" class="navbar-form navbar-left">
+                <div class="form-group">
+                  <input type="search" id="keyword" name="keyword" class="form-control" placeholder="Search"/>
+                </div>
+                <input type="submit" class="btn btn-default" value="Search"/>
+                <a href="#">
+                  <span><i class="fas fa-shopping-cart"></i></span>
+                </a>
+              </form>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"> <span><i class="fas fa-home"></i></span>Home</a></li>
+                <li><a href="#divSUBCRIBE">Contact Us</a></li>
+                <li><a href="#home">New Products</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="#" class="drop-down-toggle" data-toggle="dropdown" role="button">Categories <span class="caret"></span></a>
+                  <ul class="megamenu dropdown-menu">
+                          <li>
+                            <div class="row">
+                              <div class="item col-sm-3 col-md-3 col-xs-12 megamenuthumnail">
+                                <img src="/ShopLozodo/img/fashionMen.jpeg" alt="" class="img-responsive"/>
+                                <div class="text-content">
+                                  <p><h4><a href="#home" class="title">Men Fashion</a></h4></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                </div>
+                              </div>
+                              <div class="item col-sm-3 col-md-3 col-xs-12 megamenuthumnail">
+                                <img src="/ShopLozodo/img/fashionWoman.jpeg" alt="" class="img-responsive"/>
+                                <div class="text-content">
+                                  <p><h4><a href="#home" class="title">Woman Fashion</a></h4></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                </div>
+                              </div>
+                              <div class="item col-sm-3 col-md-3 col-xs-12 megamenuthumnail">
+                                <img src="/ShopLozodo/img/fashionkid.jpeg" alt="" class="img-responsive"/>
+                                <div class="text-content">
+                                  <p><h4><a href="#home" class="title">Kid Fashion</a></h4></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                </div>
+                              </div>
+                              <div class="item col-sm-3 col-md-3 col-xs-12 megamenuthumnail">
+                                <img src="/ShopLozodo/img/fashionItem.jpeg" alt="" class="img-responsive"/>
+                                <div class="text-content">
+                                  <p><h4><a href="#home" class="title">Accsessory Fashion</a></h4></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                  </ul>
+                </li>
+                <li><a href="#"><span><i class="fas fa-user"></i></span>Register</a></li>
+                <li><a href="login.html"><span><i class="fas fa-sign-in-alt"></i></span>Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+		<div class="container section-detail">
 	        <div class="heading-section">
 	            <h2>Product Details</h2>
 	        </div>
 	        <div class="row">
-	        	<div class="col-md-6 detail-img">
+	        	<div class="col-md-6 col-xs-12 detail-img">
 	        		<div id="slider" class="owl-carousel product-slider">
 						<div class="item">
 							<img style="object-fit: contain;" src="/ShopLozodo/img/AllProduct/Item1.jpg" />
@@ -57,7 +140,7 @@
 	 				 </div>
 				  </div>
 				</div>
-	        	<div class="col-md-6">
+	        	<div class="col-md-6 col-xs-12">
 	        		<div class="product-dtl">
         				<div class="product-info">
 		        			<div class="product-name">Champion Pink</div>
@@ -79,7 +162,7 @@
 		        			<div class="product-price-discount"><span>40$</span><span class="line-through">60$</span></div>
 		        		</div>
 	        			<div class="row">
-	        				<div class="col-md-6">
+	        				<div class="col-md-6 col-xs-12">
 	        					<label for="size">Size</label>
 								<select id="size" name="size" class="form-control">
 									<option>S</option>
@@ -88,7 +171,7 @@
 									<option>XL</option>
 								</select>
 	        				</div>
-	        				<div class="col-md-6">
+	        				<div class="col-md-6 col-xs-12">
 	        					<label for="color">Color</label>
 								<select id="color" name="color" class="form-control">
 									<option>Pink</option>
@@ -106,48 +189,41 @@
 							    <div class="qtyplus">+</div>
 							</form>
 							<a href="index.html" class="round-black-btn">Add to Cart</a>
+								<div class="description">
+									<h4 class="dcr-heading text-center">Description</h4>
+									<p class="dcr-text">This is a special product that is manufactured according to a professional process. Our products are rigorously tested to ensure high quality. Return within 7 days if the product is defective, this is a special product manufactured by professional process. Our products are rigorously tested to ensure high quality. Return within 7 days if the product is defective. 100% cotton fabric is soft and comfortable to wear in summer.</p>
+								</div>
 	        			</div>
 	        		</div>
 	        	</div>
 	        </div>
-	        <div class="product-info-tabs">
-		        <ul class="nav nav-tabs" id="myTab" role="tablist">
-				  	<li class="nav-item">
-				    	<a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
-				  	</li>
-				  	<li class="nav-item">
-				    	<a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Reviews (0)</a>
-				  	</li>
-				</ul>
-				<div class="tab-content" id="myTabContent">
-				  	<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-						
-This is a special product that is manufactured by professional processes. The product is strictly tested by us to ensure high quality. Return within 7 days if the product has a defect.
-				  	</div>
-				  	<div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
-				  		<div class="review-heading">REVIEWS</div>
-				  		<p class="mb-20">There are no reviews yet.</p>
-				  		<form class="review-form">
+		</div>
+		<section class="section-review">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h4 class="review-heading">Review</h4>
+						<form class="review-form">
 		        			<div class="form-group">
 			        			<label>Your rating</label>
 			        			<div class="reviews-counter">
 									<div class="rate">
-									    <input type="radio" id="star5" name="rate" value="5" />
+									    <input type="radio" id="star5" name="rate" value="5">
 									    <label for="star5" title="text">5 stars</label>
-									    <input type="radio" id="star4" name="rate" value="4" />
+									    <input type="radio" id="star4" name="rate" value="4">
 									    <label for="star4" title="text">4 stars</label>
-									    <input type="radio" id="star3" name="rate" value="3" />
+									    <input type="radio" id="star3" name="rate" value="3">
 									    <label for="star3" title="text">3 stars</label>
-									    <input type="radio" id="star2" name="rate" value="2" />
+									    <input type="radio" id="star2" name="rate" value="2">
 									    <label for="star2" title="text">2 stars</label>
-									    <input type="radio" id="star1" name="rate" value="1" />
+									    <input type="radio" id="star1" name="rate" value="1">
 									    <label for="star1" title="text">1 star</label>
 									</div>
 								</div>
 							</div>
 		        			<div class="form-group">
 			        			<label>Your message</label>
-			        			<textarea class="form-control" rows="10"></textarea>
+			        			<textarea class="form-control" rows="10" spellcheck="false"></textarea>
 			        		</div>
 			        		<div class="row">
 				        		<div class="col-md-6">
@@ -163,13 +239,95 @@ This is a special product that is manufactured by professional processes. The pr
 					        </div>
 					        <button class="round-black-btn">Submit Review</button>
 			        	</form>
-				  	</div>
+					</div>
 				</div>
 			</div>
-			
-			<div style="text-align:center;font-size:14px;padding-bottom:20px;">Get free icon packs for your next project at <a href="http://shoplozodo.somee.com/" target="_blank" style="color:#ff5e63;font-weight:bold;">shoplozodo.somee.com/</a></div>
-		</div>
-	</div>
+		</section>
+		<section class="footer">
+			<div class="container-fluid">
+			  <div class="container">
+				<div class="row">
+				  <div class="footer-box col-md-3 col-sm-6 col-xs-12">
+						  <h4 class="footer-box-heading">Evens Hot</h4>
+						  <div class="row">
+							<div class="col-md-3 col-sm-6 col-xs-12 footer-box-child">
+								<ul class="event-list">
+								  <li >
+									<h4 >Black Friday</h4>
+								  </li>
+								  <li><img style="width: 50%;" src="/ShopLozodo/img/news/footer.jpg" alt="">
+									<p>In lacinia ipsum sit amet ultricies semper nulla facilisi.</p>
+								  </li>
+								  <li><span style="float: right;">Read More</span></li><br>
+								  <li><span>Dectember 25, 2019</span></li>
+								</ul>
+							</div>
+						  </div>
+				  </div>
+				  <div class="footer-box col-md-3 col-sm-6 col-xs-12">
+					<h4 class="footer-box-heading">CARRER NEWS</h4>
+					<div class="row">
+					  <div class="col-md-3 col-sm-6 col-xs-12 footer-box-child">
+						  <ul class="carrer-list">
+							<li><i class="fas fa-check"></i><span>Opening Position</span></li>
+							<li><i class="fas fa-check"></i><span>Why Choose Us?</span></li>
+							<li><i class="fas fa-check"></i><span>Who We Are?</span></li>
+							<li><i class="fas fa-check"></i><span>How We Work?</span></li>
+						  </ul>
+					  </div>
+					</div>
+				  </div>
+				  <div class="footer-box col-md-3 col-sm-6 col-xs-12">
+					<h4 class="footer-box-heading">FOLLOW US</h4>
+					<div class="row">
+					  <div class="col-md-3 col-sm-6 col-xs-12 footer-box-child">
+						  <ul class="follow-list">
+							<a href="">
+  
+							  <li><i style="color: red;" class="fab fa-youtube"></i></li>
+							</a>
+							<a href="">
+  
+							  <li><i style="color: #339af0;" class="fab fa-facebook-f"></i></li>
+							</a>
+							<a href="">
+							  <li><i style="color:#9e41a7" class="fab fa-instagram"></i></li>
+							</a>
+							<a href="">
+							  <li><i style="color:#0063c2" class="fab fa-twitter"></i></li>
+							</a>
+						  </ul>
+					  </div>
+					</div>
+				  </div>
+				  <div class="footer-box col-md-3 col-sm-6 col-xs-12">
+					<h4 class="footer-box-heading">FOUNDER</h4>
+					<div class="row">
+					  <div class="col-md-3 col-sm-6 col-xs-12 footer-box-child">
+						  <ul class="contact-list">
+							<li>
+							  <i class="fas icon-user fa-user-tie"></i> <span>Nguyễn Thanh Phi</span>
+						  </li>
+						  <li>
+							  <i class="fas icon-user fa-user-tie"></i> <span>Đinh Hoàng Minh Thuận</span>
+						  </li>
+						  <li>
+							  <i class="fas icon-user fa-user-tie"></i> <span>Lê Mạnh Quang Đăng</span>
+						  </li>
+						  <li>
+							  <i class="fas icon-user fa-user-tie"></i> <span>Trần Gia Huy</span>
+						  </li>
+						  </ul>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="text-center">
+				<p style="font-size: 20px;"><i class="far fa-copyright"></i>2021-2022 DEVELOPERHERO | ALL RIGHT RESERVED</p>
+			  </div> 
+			  </div> 
+		</section>
     <script type="text/javascript">
         $(document).ready(function() {
 		    var slider = $("#slider");

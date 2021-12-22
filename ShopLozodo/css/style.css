@@ -317,6 +317,9 @@ transition-timing-function: ease-out;
   
     display: block;
 }
+.caption{
+    margin-top: 10px;
+}
 .thumnail .caption .proName{
 font-size: 14px;
 line-height: 17px;
@@ -465,6 +468,7 @@ text-align: justify;
    min-height: 300px;
    margin-bottom: 100px;
    margin-left:15px;
+   border-radius: 4%;
 }
 
 .event-list h4{

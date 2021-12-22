@@ -10,14 +10,90 @@
     <link rel="stylesheet" href="/ShopLozodo/css/base.css">
     <link rel="stylesheet" href="/ShopLozodo/css/news.css">
     <link rel="stylesheet" href="/ShopLozodo/css/style.css">
-
+    <link rel="stylesheet" href="/ShopLozodo/css/respnsive.css">
     <link rel="stylesheet" href="/ShopLozodo/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="header-news col-md-12">
-        <h1 class="text-center">Detail News</h1>
-    </header>
+    <header class="header-main">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="index.html" class="navbar-brand">
+                <span class="lz-brand">LZS</span>
+              </a>
+              <form action="" class="navbar-form navbar-left">
+                <div class="form-group">
+                  <input type="search" id="keyword" name="keyword" class="form-control" placeholder="Search"/>
+                </div>
+                <input type="submit" class="btn btn-default" value="Search"/>
+                <a href="#">
+                  <span><i class="fas fa-shopping-cart"></i></span>
+                </a>
+              </form>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"> <span><i class="fas fa-home"></i></span>Home</a></li>
+                <li><a href="#divSUBCRIBE">Contact Us</a></li>
+                <li><a href="#home">New Products</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="#" class="drop-down-toggle" data-toggle="dropdown" role="button">Categories <span class="caret"></span></a>
+                  <ul class="megamenu dropdown-menu">
+                          <li>
+                            <div class="row">
+                              <div class="item col-sm-3 col-md-3 col-xs-12 megamenuthumnail">
+                                <img src="/ShopLozodo/img/fashionMen.jpeg" alt="" class="img-responsive"/>
+                                <div class="text-content">
+                                  <p><h4><a href="#home" class="title">Men Fashion</a></h4></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                </div>
+                              </div>
+                              <div class="item col-sm-3 col-md-3 col-xs-12 megamenuthumnail">
+                                <img src="/ShopLozodo/img/fashionWoman.jpeg" alt="" class="img-responsive"/>
+                                <div class="text-content">
+                                  <p><h4><a href="#home" class="title">Woman Fashion</a></h4></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                </div>
+                              </div>
+                              <div class="item col-sm-3 col-md-3 col-xs-12 megamenuthumnail">
+                                <img src="/ShopLozodo/img/fashionkid.jpeg" alt="" class="img-responsive"/>
+                                <div class="text-content">
+                                  <p><h4><a href="#home" class="title">Kid Fashion</a></h4></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                </div>
+                              </div>
+                              <div class="item col-sm-3 col-md-3 col-xs-12 megamenuthumnail">
+                                <img src="/ShopLozodo/img/fashionItem.jpeg" alt="" class="img-responsive"/>
+                                <div class="text-content">
+                                  <p><h4><a href="#home" class="title">Accsessory Fashion</a></h4></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                  <p class="menu-item"><a href="#">Menu item 1</a></p>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                  </ul>
+                </li>
+                <li><a href="#"><span><i class="fas fa-user"></i></span>Register</a></li>
+                <li><a href="login.html"><span><i class="fas fa-sign-in-alt"></i></span>Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
     <section class="section-news">
         <div class="container-fluid">
             <div class="row">
@@ -204,6 +280,9 @@
             </div>
           </div>
         </div>
+        <div class="text-center">
+          <p style="font-size: 20px;"><i class="far fa-copyright"></i>2021-2022 DEVELOPERHERO | ALL RIGHT RESERVED</p>
+        </div> 
         </div> 
   </section>
 </section>

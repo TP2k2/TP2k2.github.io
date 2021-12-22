@@ -1,6 +1,6 @@
 .pd-wrap {
-	padding: 40px 0;
 	font-family: 'Poppins', sans-serif;
+	padding: 0 px;
 }
 .heading-section {
 	text-align: center;
@@ -197,6 +197,7 @@ height: 400px;
     margin-top: 20px;
     border: solid 2px #212529; 
     transition: all 0.5s ease-in-out 0s;
+	margin-bottom: 20px;
 }
 .round-black-btn:hover,
 .round-black-btn:focus {
@@ -233,7 +234,11 @@ height: 400px;
 	padding: 30px 20px;
 	font-size: 15px;
 	line-height: 24px;
+
 	color: #7a7a7a;
+}
+.review-form{
+	margin-top: 20px;
 }
 .review-form .form-group {
 	clear: both;
@@ -246,14 +251,7 @@ height: 400px;
 	float: none;
 	display: inline-block;
 }
-.review-heading {
-	font-size: 24px;
-    font-weight: 600;
-    line-height: 24px;
-    margin-bottom: 6px;
-    text-transform: uppercase;
-    color: #000;
-}
+
 .review-form .form-control {
 	font-size: 14px;
 }
@@ -266,4 +264,17 @@ height: 400px;
 .review-form .round-black-btn {
 	text-transform: uppercase;
 	cursor: pointer;
+}
+.description{
+	width: 100%;
+	text-align: justify;
+}
+.review-heading{
+	border-bottom: 5px solid #ddd;
+	font-size: 30px;
+	font-weight: 500;
+}
+.dcr-heading{
+	font-size: 20px;
+	font-weight: 500;
 }
