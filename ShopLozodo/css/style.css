@@ -15,16 +15,16 @@ html{
 min-height: 60px;
 width: 100%;
 margin: auto;
-background:#ff6666 ;
+background:#fc5c65 ;
 margin-bottom: 40px;
 }
 
 .navbar li{
-    min-width: 85px;
+    min-width: 80px;
     
 }
 .navbar a{
-    color: var(--font-color)!important;
+    color: var(--white-color)!important;
     font-size: 16px;
     line-height: 27px!important;
     font-weight: 700;
@@ -47,7 +47,7 @@ margin-bottom: 40px;
 }
 .navbar-nav>li>.dropdown-menu{
     background: var(--white-color);
-    margin-right: -150px;
+    margin-right: -100px;
 }
 .megamenu{
     width: 800px;
@@ -61,7 +61,7 @@ margin-bottom: 40px;
 }
 .megamenuthumnail a{
     font-size: 14px;
-    color: #bebebe;
+    color: var(--black-color)!important;
 }
 .megamenuthumnail a:hover{
     color: var(--pink-color)!important;
@@ -169,12 +169,13 @@ background: #f6f6f6;
 .section-services a{
     color:#666;
 }
+
 .section-list-brand h3.like,
 .section-hot-product h3.like{
 font-size: 24px;
-color: #000;
+color: var(--black-color);
 font-weight: 900;
-min-height:50px ;
+min-height:36px ;
 font-family: 'lato-Regular';
 }
 .section-hot-product a.like-name{
@@ -193,13 +194,14 @@ font-size: 14px;
 .section-hot-product .img-flexisel{
     width: 170px;
     height: 250px;
+    border-radius:20% ;
 
 }
 .section-list-brand .nbs-flexisel-container,
 .section-hot-product .nbs-flexisel-container{
     position: relative;
     max-width: 100%;
-    background: #e9effd;
+    background:#d1d8e0;
     padding-top: 30px;
 }
 .section-list-brand .nbs-flexisel-ul,
@@ -264,8 +266,8 @@ margin-top: -1em;
 }
 .section-menu-second .navbar .nav-tabs li{
 display: inline-block;
-border-right:1px solid #ccc ;
-min-width: 117.9px;
+border:1px solid #ccc ;
+width: calc(100%/4);
 min-height: 60px;
 }
 .section-menu-second .navbar .nav-tabs li:last-child{
@@ -290,11 +292,12 @@ margin-top: 0px;
 .section-Special-product .container, .section-hot-product .container,
 .section-as-product .container,
 .section-new-product .container, .section-all-product .container{
-    background: #f9b4ad;
+    background: #fa787f;
 }
 .section-body h3{
-    padding-top: 50px;
+    padding-top: 30px;
     font-weight: 700;
+    color: var(--white-color);
 }
 .section-body .thumnail{
 padding-top: 10px;
@@ -308,6 +311,7 @@ padding-top: 10px;
     transition-duration: .3s;
 transition-property: transform;
 transition-timing-function: ease-out;
+margin-bottom: 20px;
 }
 .thumnail:hover{
     opacity: 0.7;
@@ -326,6 +330,7 @@ line-height: 17px;
 font-family: sans-serif;
 color: var(--font-color);
 font-weight: 600;
+margin-bottom: 4px;
 }
 .thumnail .caption .prodPrice{
 font-size: 16px;
@@ -421,15 +426,6 @@ color: gray;
     font-size: 30px;
     font-weight: 400;
 }
-.lz-brand{
-    margin-left:10px ;
-    text-align: center;
-    background-color: #fff;
-    padding: 8px 8px;
-    border-radius: 50%;
-    color: var(--pink-color);
-
-}
 
 .btn-primary{
     float: right;
@@ -453,7 +449,7 @@ font-style: italic;
 text-align: justify;
 }
 .footer .container-fluid{
-    background: #ddd;
+    background: #ccc;
 }
 
 .footer-box-heading{
@@ -463,12 +459,16 @@ text-align: justify;
 
 }
 .footer-box-child{
-   background-color: #fa8072; 
+   background-color: #fc5c65; 
    width: 90%;
    min-height: 300px;
    margin-bottom: 100px;
    margin-left:15px;
    border-radius: 4%;
+}
+.footer-box-child p,
+.footer-box-child span{
+    color: var(--white-color);
 }
 
 .event-list h4{
@@ -491,7 +491,7 @@ text-align: justify;
 }
 .carrer-list i{
     font-size: 24px;
-    color: #666;
+    color:var(--font-color);
     
 }
 .carrer-list span{
@@ -515,6 +515,7 @@ text-align: justify;
 }
 .icon-user{
     font-size: 24px;
+    color: var(--font-color);
 }
 .login-box{
 position: absolute;
