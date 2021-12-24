@@ -288,6 +288,9 @@
     .event-list h4{
         margin-left: 0!important;
     }
+  body{
+        padding-right: 11%;
+    }
     
    
 }
